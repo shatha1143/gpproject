@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="library_building">Library building</string>
+    <string name="pharmacy_building">pharmacy building</string>
+    <string name="science_building">Science Building</string>
+    <string name="aljajera_building">Aljajera building</string>
+    <string name="dental_clinic_building">Dental clinic Building</string>
+    <string name="tv_building">TV building</string>
+    <string name="Preparatory_building">preparotry building</string>
+    <string name="Building_Number">Building_nnumber</string>
+    <string name="Building_Number203">building_number_203</string>
+    <string name="Building_Number203r203">building number 203</string>
+    <string name="show_profile">show profile</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="security_team_office">security team office</string>
+    <string name="adduser">add_user</string>
+    <string name="deleteuser">delete_user</string>
+    <string name="viewuserprofile">userprofile</string>
+    <string name="aljajerah_building">aljajerah</string>
+    <string name="aljazerah_building">aljazerah_building</string>
+</resources>

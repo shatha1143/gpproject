@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4C5D3"
+    tools:context=".MainActivity4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="519dp"
+            android:layout_marginTop="250dp"
+            android:background="#ABC8D5"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/textView4"
+                android:layout_width="232dp"
+                android:layout_height="55dp"
+                android:background="#FAF7F7"
+                android:text="security employee 1:"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_marginTop="-60dp"
+                android:layout_marginLeft="300dp"
+                android:text="@string/show_profile"
+                tools:ignore="HardcodedText"
+                style="@style/AlertDialog.AppCompat"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/cardview_light_background"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:layout_marginRight="180dp"
+                app:backgroundTint="#D2DAE1" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="232dp"
+                android:layout_height="55dp"
+                android:background="#FAF7F7"
+                android:text="security employee 2:"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_marginTop="-60dp"
+                android:layout_marginLeft="300dp"
+                android:text="@string/show_profile"
+                tools:ignore="HardcodedText"
+                style="@style/AlertDialog.AppCompat"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/cardview_light_background"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:layout_marginRight="180dp"
+                app:backgroundTint="#D2DAE1" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="232dp"
+                android:layout_height="55dp"
+                android:background="#FAF7F7"
+                android:text="security employee 3:"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_marginTop="-60dp"
+                android:layout_marginLeft="300dp"
+                android:text="@string/show_profile"
+                tools:ignore="HardcodedText"
+                style="@style/AlertDialog.AppCompat"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/cardview_light_background"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:layout_marginRight="180dp"
+                app:backgroundTint="#D2DAE1" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="232dp"
+                android:layout_height="55dp"
+                android:background="#FAF7F7"
+                android:text="security employee 4:"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_marginLeft="300dp"
+                android:text="@string/show_profile"
+                tools:ignore="HardcodedText"
+                style="@style/AlertDialog.AppCompat"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/cardview_light_background"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:layout_marginRight="180dp"
+                app:backgroundTint="#D2DAE1"
+                android:layout_marginTop="-60dp"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_marginTop="70dp"
+            android:background="#ABC8D5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#FBF9F9"
+                android:text="@string/aljajera_building"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="423dp"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="#FAF8F8"
+                android:text="@string/Building_Number203"
+                android:textColor="#101010"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

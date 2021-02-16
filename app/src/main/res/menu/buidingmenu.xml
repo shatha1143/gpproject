@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/subitem4"
+        android:title="@string/library_building"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText">
+
+    </item>
+    <item
+        android:id="@+id/subitem5"
+        android:title="@string/pharmacy_building"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText">
+
+    </item>
+    <item
+        android:id="@+id/subitem6"
+        android:title="@string/science_building"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText">
+
+    </item>
+    <item
+        android:id="@+id/subitem7"
+        android:title="@string/aljajera_building"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText">
+
+    </item>
+    <item
+        android:id="@+id/subitem8"
+        android:title="@string/dental_clinic_building"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText">
+
+    </item>
+    <item
+        android:id="@+id/subitem9"
+        android:title="@string/Preparatory_building"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+    <item
+        android:id="@+id/subitem10"
+        android:title="@string/tv_building"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText">
+
+    </item>
+    <item
+        android:id="@+id/subitem11"
+        android:title="building 12"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+</menu>

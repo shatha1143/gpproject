@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".msgpage">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D1D4D6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="#ABC8D5"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="72dp"
+                android:layout_height="65dp"
+                android:onClick="back"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_8"
+                tools:ignore="OnClick,VectorDrawableCompat" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="-65dp"
+                app:srcCompat="@drawable/ic_baseline_person_8"
+                tools:ignore="VectorDrawableCompat">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="511dp"
+            android:layout_height="119dp"
+            android:layout_marginLeft="-510dp"
+            android:layout_marginTop="400dp"
+            android:background="#F8F5F5"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="       "
+                android:inputType="textPersonName" />
+
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-60dp"
+                android:onClick="view_map"
+                app:srcCompat="@drawable/ic_baseline_add_location_6"
+                tools:ignore="VectorDrawableCompat">
+
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="65dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="380dp"
+                android:layout_marginTop="-60dp"
+                app:srcCompat="@drawable/ic_baseline_attach_file_6"
+                tools:ignore="VectorDrawableCompat">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="65dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="450dp"
+                android:layout_marginTop="-60dp"
+                app:srcCompat="@drawable/ic_baseline_send_6"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manageusers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D1D4D6"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="351dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginTop="30dp"
+            android:background="#5F678F"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Manage users"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_marginTop="20dp"
+        android:background="#5F678F"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:text="User id:"
+            android:textColor="#070707"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:text="Action: "
+            android:textColor="#070707"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="320dp"
+           android:layout_marginTop="-180dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_drop_down_24"
+            tools:ignore="VectorDrawableCompat">
+
+        </ImageButton>
+
+        <ImageButton
+
+            android:id="@+id/actionbutton"
+            android:layout_width="75dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_drop_down_24"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

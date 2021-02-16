@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infopage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="519dp"
+            android:layout_marginTop="250dp"
+            android:background="#ABC8D5"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/empName"
+                android:layout_width="366dp"
+                android:layout_height="55dp"
+                android:background="#FAF7F7"
+                android:text="Name: "
+                android:layout_marginTop="15dp"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/empphone"
+                android:layout_width="366dp"
+                android:layout_height="55dp"
+                android:background="#FAF7F7"
+                android:text="phone number:"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/empmail"
+                android:layout_marginTop="25dp"
+                android:layout_width="366dp"
+                android:layout_height="55dp"
+                android:background="#FAF7F7"
+                android:text="E-mail :"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/empmessage"
+                android:layout_width="366dp"
+                android:layout_height="55dp"
+                android:background="#FAF7F7"
+                android:layout_marginTop="30dp"
+
+                android:text="send a message:"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-55dp"
+                android:id="@+id/imageView"
+                android:layout_width="65dp"
+                android:layout_height="61dp"
+                app:srcCompat="@drawable/ic_baseline_message_6"
+                tools:ignore="VectorDrawableCompat" />
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_marginTop="70dp"
+            android:background="#ABC8D5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#FBF9F9"
+                android:text="@string/aljajera_building"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="423dp"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="#FAF8F8"
+                android:text="@string/Building_Number203"
+                android:textColor="#101010"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
